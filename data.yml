@@ -122,6 +122,20 @@ nodes:
       - loot
       - nfts
 
+  b56290ad-6c5f-45d5-93c2-aad955d3ca74:
+    name: Metamask
+    icon: https://metamask.io/icons/icon-48x48.png?v=48400a28770e10dd52a8c0e539aeb282
+    url: https://metamask.io
+    description: >-
+      The leading crypto wallet available on browser extension and mobile.
+      Trusted by over 30 million users to buy, store, send and swap crypto
+      securely.
+    tags:
+      - browser
+      - extension
+      - metamask
+      - wallet
+
   ae16abee-19bb-4bba-9c50-e8f65a1a27e8:
     name: Mutant Ape Yacht Club
     icon: https://lh3.googleusercontent.com/l7HEut3L3iqEwLEjL9xLsQZfnDcucz1KBUrQHvd0hFqgZN4YnO9QzMqk7m-CXzsquaF1sT_bADWkZB3rg-yVydJa7wRqOXRdQAs3oQ=s128
@@ -154,6 +168,21 @@ nodes:
       - earn
       - pancakeswap
       - yieldfarm
+
+  5ec39647-3ee5-4a96-a64f-e7d96908ce5d:
+    name: Phantom
+    icon: https://phantom.app/favicon-32x32.png
+    url: https://phantom.app
+    description: >-
+      A friendly crypto wallet: Phantom makes it safe & easy for you to store,
+      buy, send, receive, swap tokens and collect NFTs on the Solana blockchain.
+    tags:
+      - browser
+      - extension
+      - phantom
+      - sol
+      - solana
+      - wallet
 
   d196f1b3-334f-4aab-8bf1-3b6df650b3de:
     name: Uniswap

@@ -65,9 +65,9 @@
 
   // Search by tag.
   const search = (query) => {
-    if (!query.length) return;
-    document.querySelector('.search').value = query;
     document.querySelector('.nodes').innerHTML = '';
+    document.querySelector('.search').value = query;
+    if (!query.length) return;
 
     Object.values(nodes).forEach((node) => {
       node.tags.forEach((tag) => {
