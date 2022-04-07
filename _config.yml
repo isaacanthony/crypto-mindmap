@@ -1,0 +1,8 @@
+include:
+  - data.yml
+  - index.html
+
+exclude:
+  - LICENSE
+  - README.md
+  - Makefile

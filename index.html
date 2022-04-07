@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>&#128218; Crypto Mindmap</title>
+  <!-- css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+  <style>
+    a:hover {text-decoration:none;}
+    p {font-size:0.8rem;}
+    .lead {font-size:1rem;}
+    .logo {height:1rem; width:1rem;}
+  </style>
+</head>
+<body>
+<!-- html -->
+<div class="container">
+  <div class="row mt-4 mb-4">
+    <div class="col-sm-12">
+      <input class="form-control search" type="search" placeholder="&#128269; Search">
+    </div> <!-- col -->
+  </div> <!-- row -->
+
+  <div class="row nodes"></div>
+</div> <!-- container -->
+
+<!-- js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+<script>
+  'use strict';
+
+  // All nodes loaded from YAML.
+  var nodes = {};
+
+  // Display node.
+  const display = (node) => {
+    document.querySelector('.nodes').innerHTML += `
+      <div class="col-sm-4 mb-3">
+        <div class="card card-body p-2 h-100">
+          <div class="row">
+            <div class="col-sm-12">
+              <p class="lead text-center mb-0 mt-0">
+                <a href="${node.url}">
+                  <img class="logo" src="${node.icon}"> ${node.name}
+                </a>
+              </p>
+
+              <hr class="mt-1 mb-2">
+              <p>${node.description}</p>
+
+              <p class="mb-0">
+                ${
+                  node.tags
+                    .map(tag => `<a href="#${tag}">#${tag}</a>`)
+                    .join(', ')
+                }
+              </p>
+            </div> <!-- col -->
+          </div> <!-- row -->
+        </div> <!-- card -->
+      </div> <!-- col -->
+    `;
+  };
+
+  // Search by tag.
+  const search = (query) => {
+    if (query.length === 0) return;
+    document.querySelector('.search').value = query;
+    document.querySelector('.nodes').innerHTML = '';
+
+    Object.values(nodes).forEach((node) => {
+      node.tags.forEach((tag) => {
+        if (tag === query.toLowerCase()) display(node);
+      })
+    });
+  };
+
+  // Search on hash change.
+  window.onhashchange = () => {
+    search(window.location.hash.replace('#', ''));
+  };
+
+  // Search on ENTER.
+  document.querySelector('.search').addEventListener('keypress', (e) => {
+    if (e.keyCode !== 13) return;
+    search(document.querySelector('.search').value);
+  });
+
+  // Load YAML file.
+  fetch('data.yml')
+    .then(response => response.text())
+    .then(yamlString => jsyaml.load(yamlString))
+    .then(obj => nodes = obj.nodes);
+</script>
+</body>

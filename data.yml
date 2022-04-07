@@ -1,0 +1,107 @@
+nodes:
+  7cff4410-8e62-48a2-872a-84cd3d1fbe64:
+    name: Aave
+    icon: https://aave.com/favicon32.ico
+    url: https://aave.com
+    description: >-
+      Aave is an Open Source Protocol to create Non-Custodial Liquidity Markets
+      to earn interest on supplying and borrowing assets with a variable or
+      stable interest rate. The protocol is designed for easy integration into
+      your products and services.
+    tags:
+      - aave
+      - borrowing
+      - defi
+      - earn
+      - erc20
+      - ethereum
+      - lending
+      - liquidity
+      - smartcontract
+      - stablecoins
+
+  b70158fe-0188-4bc4-b222-5e943ab9d275:
+    name: Coinbase
+    icon: https://assets.coinbase.com/assets/favicon-32.edb331948b196fde10cb4d6a4e894bb8.png
+    url: https://www.coinbase.com
+    description: >-
+      Coinbase is a secure online platform for buying, selling, transferring,
+      and storing cryptocurrency.
+    tags:
+      - coinbase
+      - exchange
+      - kyc
+
+  0437dbf5-b853-4558-9f2b-8b11ffdaa32a:
+    name: Curve
+    icon: https://curve.fi/favicon-48x48.png
+    url: https://curve.fi
+    description: >-
+      Curve is an exchange liquidity pool on Ethereum designed for: extremely
+      efficient stablecoin trading, low risk, supplemental fee income for
+      liquidity providers, without an opportunity cost.
+    tags:
+      - amm
+      - curve
+      - defi
+      - dex
+      - exchange
+      - liquiditypool
+      - stablecoin
+
+  426bfe45-a24d-450c-be9f-1d263aec5ec6:
+    name: DeSo
+    icon: https://uploads-ssl.webflow.com/6148aea00f7f90ad88e373a0/6148aea00f7f90146de37427_favicon.png
+    url: https://www.deso.org/
+    description: >-
+      DeSo is a new layer-1 blockchain built from the ground up to scale
+      decentralized social applications to one billion users.
+    tags:
+      - deso
+      - layer1
+      - social
+
+  4f22d0a0-c0f1-4a84-baa1-1ae9605289c6:
+    name: FTX
+    icon: https://assets.website-files.com/613b9c7eace73c8678ac5031/617196a9367bfa60e6e9c904_FTX-US-fav-32.png
+    website: https://ftx.us
+    description: >-
+      FTX is an easy to use crypto exchange where you can buy, sell, and store
+      Bitcoin, Ethereum and other cryptocurrencies and digital assets such as
+      NFTs
+    tags:
+      - exchange
+      - ftx
+      - kyc
+
+  863ef65e-e3df-428c-bd7d-f0e25952fa8c:
+    name: PancakeSwap
+    icon: https://pancakeswap.finance/favicon.ico
+    url: https://pancakeswap.finance
+    description: >-
+      Cheaper and faster than Uniswap? Discover PancakeSwap, the leading DEX on
+      BNB Smart Chain (BSC) with the best farms in DeFi and a lottery for CAKE.
+    tags:
+      - amm
+      - bnb
+      - defi
+      - dex
+      - earn
+      - pancakeswap
+      - yieldfarm
+
+  d196f1b3-334f-4aab-8bf1-3b6df650b3de:
+    name: Uniswap
+    icon: https://uniswap.org/favicon.ico
+    url: https://uniswap.org
+    description: >-
+      Swap, earn, and build on the leading decentralized crypto trading
+      protocol.
+    tags:
+      - defi
+      - earn
+      - erc20
+      - ethereum
+      - exchange
+      - liquidity
+      - uniswap
