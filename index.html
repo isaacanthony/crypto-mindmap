@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>&#128218; Crypto Mindmap</title>
+  <title>Crypto Mindmap</title>
   <!-- css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
   <style>
     a:hover {text-decoration:none;}
     p {font-size:0.8rem;}
     .lead {font-size:1rem;}
-    .logo {height:1rem; width:1rem;}
+    .logo {height:1rem;}
   </style>
 </head>
 <body>
@@ -65,13 +65,15 @@
 
   // Search by tag.
   const search = (query) => {
-    if (query.length === 0) return;
+    if (!query.length) return;
     document.querySelector('.search').value = query;
     document.querySelector('.nodes').innerHTML = '';
 
     Object.values(nodes).forEach((node) => {
       node.tags.forEach((tag) => {
-        if (tag === query.toLowerCase()) display(node);
+        if (tag === query.toLowerCase()) {
+          return display(node);
+        }
       })
     });
   };

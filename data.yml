@@ -20,6 +20,19 @@ nodes:
       - smartcontract
       - stablecoins
 
+  fe7f3b2e-df89-4f2d-91f3-a801032b7cdb:
+    name: Bored Ape Yacht Club
+    icon: https://boredapeyachtclub.com/0d090ca3534b3dd85dc9.ico
+    url: https://boredapeyachtclub.com
+    description: >-
+      A limited NFT collection where the token itself doubles as your membership
+      to a swamp club for apes. The club is open! Ape in with us.
+    tags:
+      - bayc
+      - boredape
+      - boredapeyachtclub
+      - nfts
+
   b70158fe-0188-4bc4-b222-5e943ab9d275:
     name: Coinbase
     icon: https://assets.coinbase.com/assets/favicon-32.edb331948b196fde10cb4d6a4e894bb8.png
@@ -31,6 +44,18 @@ nodes:
       - coinbase
       - exchange
       - kyc
+
+  b13071c6-3da8-4692-be5c-e2cb9915405e:
+    name: CryptoPunks
+    icon: https://cryptopunks.app/public/images/favicon.png
+    url: https://cryptopunks.app
+    description: >-
+      10,000 unique collectible characters with proof of ownership stored on the
+      Ethereum blockchain.
+    tags:
+      - cryptopunks
+      - ethereum
+      - nfts
 
   0437dbf5-b853-4558-9f2b-8b11ffdaa32a:
     name: Curve
@@ -48,6 +73,19 @@ nodes:
       - exchange
       - liquiditypool
       - stablecoin
+
+  1aba7e8c-c642-4c97-ae34-721e9fde852b:
+    name: Decentraland
+    icon: https://decentraland.org/favicon-32x32.png?v=b57be10317666edc399e2bdf863f26bf
+    url: https://decentraland.org/
+    description: >-
+      Explore the first decentralized metaverse that is built, governed, and
+      owned by its users. Discover different districts, meet people, party at
+      events, and more!
+    tags:
+      - decentraland
+      - metaverse
+      - nfts
 
   426bfe45-a24d-450c-be9f-1d263aec5ec6:
     name: DeSo
@@ -73,6 +111,33 @@ nodes:
       - exchange
       - ftx
       - kyc
+
+  4ca15c1d-a042-4e3c-a4c1-f8533a085830:
+    name: Loot
+    icon: https://www.lootproject.com/favicon.ico
+    url: https://www.lootproject.com
+    description: >-
+      Loot is randomized adventurer gear generated and stored on chain.
+    tags:
+      - loot
+      - nfts
+
+  ae16abee-19bb-4bba-9c50-e8f65a1a27e8:
+    name: Mutant Ape Yacht Club
+    icon: https://lh3.googleusercontent.com/l7HEut3L3iqEwLEjL9xLsQZfnDcucz1KBUrQHvd0hFqgZN4YnO9QzMqk7m-CXzsquaF1sT_bADWkZB3rg-yVydJa7wRqOXRdQAs3oQ=s128
+    url: https://opensea.io/collection/mutant-ape-yacht-club
+    description: >-
+      The Mutant Ape Yacht Club is a collection of up to 20,000 Mutant Apes that
+      can only be created by exposing an existing Bored Ape to a vial of Mutant
+      Serum or by minting a Mutant Ape in the public sale.
+    tags:
+      - bayc
+      - boredape
+      - boredapeyachtclub
+      - mayc
+      - mutantape
+      - mutantapeyachtclub
+      - nfts
 
   863ef65e-e3df-428c-bd7d-f0e25952fa8c:
     name: PancakeSwap
